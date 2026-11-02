@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Naya Fajloun — Content Creator &amp; Videographer, Lebanon</title>
+<meta name="description" content="Naya Fajloun is a content creator, videographer and editor in Tripoli, Lebanon. She plans, films and edits short-form social media video for brands, in Arabic and English.">
+<meta name="author" content="Naya Fajloun">
+<meta name="theme-color" content="#FFF6F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#150A10" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Naya Fajloun">
+<meta property="og:title" content="Naya Fajloun — Content Creator &amp; Videographer">
+<meta property="og:description" content="Naya Fajloun is a content creator, videographer and editor in Tripoli, Lebanon. She plans, films and edits short-form social media video for brands, in Arabic and English.">
+<meta property="og:image" content="/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_LB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Naya Fajloun — Content Creator &amp; Videographer">
+<meta name="twitter:description" content="Naya Fajloun is a content creator, videographer and editor in Tripoli, Lebanon. She plans, films and edits short-form social media video for brands, in Arabic and English.">
+<meta name="twitter:image" content="/og.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap">
+
+<style>
+:root{
+  --bg:#FFF6F3;
+  --surface:#FFFFFF;
+  --surface-2:#FDECEF;
+  --band:#FBE3E9;
+  --fg:#2B1420;
+  --fg-muted:#7A5462;
+  --line:#F2D9DF;
+  --accent:#D62E6B;
+  --accent-soft:#F7C3D2;
+  --on-accent:#FFFFFF;
+
+  --display:"Instrument Serif",Charter,Georgia,"Times New Roman",serif;
+  --body:"Hanken Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --arabic:"IBM Plex Sans Arabic","Geeza Pro","Segoe UI",Tahoma,sans-serif;
+
+  --maxw:1080px;
+
+  color-scheme:light;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#150A10;
+    --surface:#1F1018;
+    --surface-2:#231320;
+    --band:#1C0E16;
+    --fg:#FBEDF1;
+    --fg-muted:#B9909E;
+    --line:#3A2029;
+    --accent:#FF7AA8;
+    --accent-soft:#54223C;
+    --on-accent:#1A0A11;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#150A10;
+  --surface:#1F1018;
+  --surface-2:#231320;
+  --band:#1C0E16;
+  --fg:#FBEDF1;
+  --fg-muted:#B9909E;
+  --line:#3A2029;
+  --accent:#FF7AA8;
+  --accent-soft:#54223C;
+  --on-accent:#1A0A11;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--fg);
+  font-family:var(--body);
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+body::before{
+  content:"";position:fixed;inset:0 0 auto;
+  height:env(safe-area-inset-top,0px);z-index:40;background:var(--bg);
+}
+img{max-width:100%}
+[hidden]{display:none!important}
+html[dir="rtl"] body{font-family:var(--arabic)}
+[dir="rtl"] .display{font-family:var(--arabic);font-weight:600;letter-spacing:0}
+
+.wrap{
+  max-width:var(--maxw);margin-inline:auto;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+}
+.display{
+  font-family:var(--display);font-weight:400;line-height:1.02;
+  letter-spacing:-0.018em;text-wrap:balance;
+}
+.eyebrow{
+  font-size:.6875rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--accent);margin:0;
+}
+[dir="rtl"] .eyebrow{letter-spacing:0;font-weight:700;text-transform:none}
+
+/* header */
+header{
+  position:sticky;top:env(safe-area-inset-top,0px);z-index:30;
+  background:color-mix(in srgb,var(--bg) 86%,transparent);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:13px}
+.mark{
+  font-family:var(--display);font-size:1.3125rem;letter-spacing:-0.012em;
+  text-decoration:none;color:var(--fg);white-space:nowrap;
+}
+[dir="rtl"] .mark{font-family:var(--arabic);font-weight:600}
+.bar nav{display:flex;align-items:center;gap:2px;flex-wrap:wrap;justify-content:flex-end}
+.bar nav a{
+  color:var(--fg-muted);text-decoration:none;font-size:.8125rem;font-weight:500;
+  padding:6px 10px;
+}
+.bar nav a:hover{color:var(--accent)}
+@media (max-width:719px){.bar nav a:not(.lang){display:none}}
+.lang{
+  margin-inline-start:6px;
+  border:1px solid var(--line);background:transparent;color:var(--fg);
+  font-size:.75rem;font-weight:600;letter-spacing:.06em;
+  padding:6px 12px;border-radius:999px;cursor:pointer;line-height:1.4;
+}
+.lang:hover{border-color:var(--accent);color:var(--accent)}
+
+/* hero */
+.hero{padding-block:clamp(48px,9vw,96px) clamp(40px,6vw,72px)}
+.hero-frame{position:relative;padding:clamp(20px,3.6vw,38px) 0}
+.hero-frame::before,.hero-frame::after,.vf::before,.vf::after{
+  content:"";position:absolute;width:22px;height:22px;border:2px solid var(--accent-soft);
+}
+.hero-frame::before{top:0;inset-inline-start:0;border-width:2px 0 0 2px}
+.vf::before{top:0;inset-inline-end:0;border-width:2px 2px 0 0}
+.vf::after{bottom:0;inset-inline-start:0;border-width:0 0 2px 2px}
+.hero-frame::after{bottom:0;inset-inline-end:0;border-width:0 2px 2px 0}
+[dir="rtl"] .hero-frame::before{border-width:2px 2px 0 0}
+[dir="rtl"] .vf::before{border-width:2px 0 0 2px}
+[dir="rtl"] .vf::after{border-width:0 2px 2px 0}
+[dir="rtl"] .hero-frame::after{border-width:0 0 2px 2px}
+
+h1{margin:0;font-size:clamp(3.1rem,12.5vw,6.25rem)}
+h1 em{font-style:italic;color:var(--accent)}
+.role{
+  margin:16px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:10px;
+  font-size:.75rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--fg-muted);
+}
+.role span:not(:first-child)::before{
+  content:"";display:inline-block;width:16px;height:1px;
+  background:var(--accent-soft);vertical-align:middle;margin-inline-end:10px;
+}
+[dir="rtl"] .role{letter-spacing:0;text-transform:none;font-size:.9375rem}
+.pitch{margin:24px 0 0;max-width:34ch;font-size:clamp(1.0625rem,3.1vw,1.375rem);line-height:1.5}
+.facts{list-style:none;margin:28px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.facts li{
+  font-size:.75rem;font-weight:600;letter-spacing:.03em;color:var(--fg-muted);
+  border:1px solid var(--line);border-radius:999px;padding:5px 13px;
+}
+.cta-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.btn{
+  display:inline-flex;align-items:center;text-decoration:none;
+  font-family:inherit;font-size:.875rem;font-weight:600;
+  padding:11px 21px;border-radius:999px;border:1px solid transparent;cursor:pointer;
+  transition:transform .18s ease,border-color .18s ease,color .18s ease;
+}
+.btn-primary{background:var(--accent);color:var(--on-accent)}
+.btn-primary:hover{transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:var(--fg);border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+
+/* sections */
+section{padding-block:clamp(48px,7.5vw,84px);border-top:1px solid var(--line)}
+.s-head{margin-bottom:clamp(28px,4.2vw,44px)}
+.s-head h2{margin:10px 0 0;font-size:clamp(1.875rem,5.6vw,3rem)}
+.s-head p{margin:14px 0 0;max-width:54ch;color:var(--fg-muted)}
+
+/* work */
+.group + .group{margin-top:clamp(34px,5vw,52px)}
+.grp{
+  display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  margin:0 0 16px;padding-bottom:12px;border-bottom:1px solid var(--line);
+}
+.grp .who{font-family:var(--display);font-size:1.5rem;line-height:1;color:var(--fg)}
+[dir="rtl"] .grp .who{font-family:var(--arabic);font-weight:600;font-size:1.25rem}
+.grp .what{
+  font-size:.6875rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--fg-muted);
+}
+[dir="rtl"] .grp .what{letter-spacing:0;text-transform:none;font-size:.8125rem}
+.reel{display:flex;flex-wrap:wrap;gap:14px}
+.reel .frame{flex:1 1 100%}
+@media (min-width:560px){.reel .frame{flex:0 1 calc((100% - 14px)/2)}}
+@media (min-width:900px){.reel .frame{flex:0 1 calc((100% - 28px)/3)}}
+.frame{
+  position:relative;aspect-ratio:9/16;max-width:100%;min-width:0;
+  border-radius:10px;overflow:hidden;background:var(--surface-2);
+  border:1px solid var(--line);
+}
+.frame video,.frame img{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;
+}
+.frame video{background:#000}
+.play{
+  position:absolute;inset:0;width:100%;height:100%;
+  display:flex;flex-direction:column;align-items:center;justify-content:flex-end;
+  border:0;padding:0;cursor:pointer;background:transparent;font-family:inherit;
+}
+.play::before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(20,6,12,.74) 0%,rgba(20,6,12,.12) 46%,rgba(20,6,12,.03) 100%);
+}
+.play-dot{
+  position:relative;width:46px;height:46px;border-radius:50%;
+  background:rgba(255,255,255,.94);display:grid;place-items:center;
+  margin-block:auto;transition:transform .2s ease;
+}
+.play:hover .play-dot{transform:scale(1.09)}
+.play-dot svg{width:17px;height:17px;fill:#D62E6B;margin-inline-start:3px}
+.cap{position:relative;width:100%;padding:12px 13px 13px;text-align:start;color:#fff}
+.cap .t{display:block;font-size:.875rem;font-weight:600;line-height:1.3}
+.cap .m{
+  display:block;margin-top:3px;font-size:.6875rem;font-weight:500;
+  letter-spacing:.05em;text-transform:uppercase;color:rgba(255,255,255,.78);
+}
+[dir="rtl"] .cap .m{letter-spacing:0;text-transform:none}
+
+.srclink{
+  position:absolute;top:10px;inset-inline-end:10px;z-index:3;
+  display:inline-flex;align-items:center;gap:5px;
+  padding:5px 10px;border-radius:999px;text-decoration:none;
+  background:rgba(22,8,14,.56);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  color:#fff;font-size:.6875rem;font-weight:600;line-height:1.4;
+  transition:background .18s ease;
+}
+.srclink:hover{background:var(--accent)}
+.srclink svg{width:13px;height:13px;fill:none;stroke:#fff;stroke-width:1.9}
+.srclink svg circle:last-of-type{fill:#fff;stroke:none}
+[dir="rtl"] .ig .foot .m{letter-spacing:0;text-transform:none}
+
+/* process */
+.flow{
+  list-style:none;margin:0;padding:0;
+  display:flex;flex-wrap:wrap;align-items:center;row-gap:14px;
+}
+.flow li{
+  font-family:var(--display);font-size:clamp(1.3125rem,3.6vw,1.875rem);
+  line-height:1.15;display:flex;align-items:center;
+}
+[dir="rtl"] .flow li{font-family:var(--arabic);font-weight:600;font-size:clamp(1.0625rem,3vw,1.375rem)}
+.flow li:not(:first-child)::before{
+  content:"";display:block;width:clamp(20px,3vw,40px);height:1px;
+  background:var(--accent-soft);margin-inline:clamp(12px,2vw,20px);flex:0 0 auto;
+}
+
+/* experience */
+.job{display:grid;gap:4px 28px;padding-block:26px;border-top:1px solid var(--line)}
+.job:first-child{border-top:0;padding-top:0}
+@media (min-width:760px){.job{grid-template-columns:170px 1fr}}
+.job .when{
+  font-size:.75rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--fg-muted);padding-top:6px;font-variant-numeric:tabular-nums;
+}
+[dir="rtl"] .job .when{letter-spacing:0;text-transform:none}
+.job h3{margin:0;font-size:1.1875rem;font-weight:600;line-height:1.35}
+.job .org{color:var(--accent)}
+.job ul{margin:10px 0 0;padding-inline-start:18px;display:grid;gap:6px}
+.job li{color:var(--fg-muted);font-size:.9375rem}
+.job li::marker{color:var(--accent-soft)}
+
+/* about */
+.cols{display:grid;gap:clamp(30px,5vw,56px)}
+@media (min-width:880px){.cols{grid-template-columns:1.2fr .8fr}}
+.bio p{font-size:1.0625rem;line-height:1.62;max-width:58ch;margin:0 0 15px}
+.bio p:last-child{margin-bottom:0}
+.tags{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.tags li{
+  font-size:.8125rem;font-weight:500;color:var(--fg);
+  border:1px solid var(--line);border-radius:999px;padding:7px 14px;
+}
+.block{padding-block:22px;border-top:1px solid var(--line)}
+.block:first-child{border-top:0;padding-top:0}
+.block h3{
+  margin:0;font-size:.6875rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--accent);
+}
+[dir="rtl"] .block h3{letter-spacing:0;text-transform:none}
+.block .big{margin:10px 0 0;font-size:1.0625rem;font-weight:600;line-height:1.4}
+.block p{margin:7px 0 0;font-size:.9375rem;color:var(--fg-muted)}
+.block ul{margin:11px 0 0;padding-inline-start:18px;display:grid;gap:6px}
+.block ul li{font-size:.875rem;color:var(--fg-muted)}
+.block ul li::marker{color:var(--accent-soft)}
+
+/* contact */
+#contact{background:var(--band)}
+.crow{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  flex-wrap:wrap;padding-block:20px;border-top:1px solid var(--line);min-width:0;
+}
+.crow:first-child{border-top:0}
+.crow .lbl{
+  display:block;font-size:.6875rem;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--fg-muted);margin-bottom:5px;
+}
+[dir="rtl"] .crow .lbl{letter-spacing:0;text-transform:none}
+.crow .val{
+  display:block;font-size:clamp(1.0625rem,3vw,1.375rem);font-weight:600;
+  color:var(--fg);text-decoration:none;overflow-wrap:anywhere;
+  direction:ltr;unicode-bidi:plaintext;font-family:var(--display);letter-spacing:-0.01em;
+}
+a.val:hover{color:var(--accent)}
+.copy{
+  flex:0 0 auto;border:1px solid var(--line);background:transparent;color:var(--fg-muted);
+  font-family:inherit;font-size:.75rem;font-weight:600;
+  padding:7px 14px;border-radius:999px;cursor:pointer;
+}
+.copy:hover,.copy[data-done="1"]{border-color:var(--accent);color:var(--accent)}
+
+footer{
+  padding-block:32px 44px;border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:baseline;
+  font-size:.8125rem;color:var(--fg-muted);
+}
+
+.reveal-init{transform:translateY(18px) scale(.985)}
+.reveal{transition:transform .7s cubic-bezier(.22,.61,.36,1)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal,.reveal-init{transition:none!important;transform:none!important}
+  .btn,a.frame,.play-dot{transition:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="mark" href="#top" data-en="Naya Fajloun" data-ar="نايا فجلون">Naya Fajloun</a>
+    <nav>
+      <a href="#work" data-en="Work" data-ar="الأعمال">Work</a>
+      <a href="#process" data-en="Process" data-ar="طريقة العمل">Process</a>
+      <a href="#experience" data-en="Experience" data-ar="الخبرة">Experience</a>
+      <a href="#about" data-en="About" data-ar="نبذة">About</a>
+      <a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a>
+      <button class="lang" id="langBtn" type="button" aria-label="Switch language">عربي</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="wrap hero">
+    <div class="hero-frame">
+      <span class="vf" aria-hidden="true"></span>
+      <h1 class="display" data-en-html="Naya &lt;em&gt;Fajloun&lt;/em&gt;" data-ar-html="نايا &lt;em&gt;فجلون&lt;/em&gt;">Naya <em>Fajloun</em></h1>
+      <p class="role">
+        <span data-en="Content Creator" data-ar="صانعة محتوى">Content Creator</span>
+        <span data-en="Videographer" data-ar="مصوّرة">Videographer</span>
+        <span data-en="Editor" data-ar="مونتيرة">Editor</span>
+      </p>
+      <p class="pitch" data-en="I make social media content for brands in Lebanon. I plan it, film it and edit it myself." data-ar="أصنع محتوى السوشال ميديا للعلامات التجارية في لبنان. أخطّط له وأصوّره وأُركّبه بنفسي.">I make social media content for brands in Lebanon. I plan it, film it and edit it myself.</p>
+      <ul class="facts">
+        <li data-en="Tripoli, Lebanon" data-ar="طرابلس، لبنان">Tripoli, Lebanon</li>
+        <li data-en="Arabic &amp; English" data-ar="عربي وإنكليزي">Arabic &amp; English</li>
+        <li data-en="Vertical 9:16" data-ar="فيديو عمودي ٩:١٦">Vertical 9:16</li>
+        <li data-en="Premiere Pro · Final Cut Pro" data-ar="بريمير برو · فاينل كت برو">Premiere Pro · Final Cut Pro</li>
+        <li data-en="Drone &amp; aerial" data-ar="تصوير جوي بالدرون">Drone &amp; aerial</li>
+      </ul>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#work" data-en="See the work" data-ar="شاهد الأعمال">See the work</a>
+        <a class="btn btn-ghost" href="#contact" data-en="Get in touch" data-ar="تواصل معي">Get in touch</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="s-head">
+        <p class="eyebrow" data-en="Recent work" data-ar="أعمال حديثة">Recent work</p>
+        <h2 class="display" data-en="Vertical video for brand feeds" data-ar="فيديو عمودي لحسابات العلامات">Vertical video for brand feeds</h2>
+        <p data-en="Product reels for a homeware brand and property tours for a travel app, captioned in Arabic and English and cut for the platform they run on." data-ar="ريلز للمنتجات لعلامة أدوات منزلية، وجولات في العقارات لتطبيق سفر، بعناوين بالعربية والإنكليزية ومونتاج مخصّص للمنصّة التي تُنشر عليها.">Product reels for a homeware brand and property tours for a travel app, captioned in Arabic and English and cut for the platform they run on.</p>
+      </div>
+
+      <div class="group">
+        <h3 class="grp">
+          <span class="who" data-en="Zymta" data-ar="زيمتا">Zymta</span>
+          <span class="what" data-en="Homeware &amp; kitchen" data-ar="أدوات منزل ومطبخ">Homeware &amp; kitchen</span>
+        </h3>
+        <div class="reel">
+
+          <div class="frame">
+            <video id="v1" preload="none" playsinline controls poster="media/poster-01.jpg"
+                   data-en-label="Zymta crepe pan demo" data-ar-label="زيمتا، عرض مقلاة الكريب">
+              <source src="media/reel-01.mp4" type="video/mp4">
+            </video>
+            <button class="play" type="button" data-for="v1" aria-label="Play the Zymta crepe pan video">
+              <span class="play-dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+              <span class="cap">
+                <span class="t" data-en="Crepe pan demo" data-ar="عرض مقلاة الكريب">Crepe pan demo</span>
+                <span class="m" data-en="Product reel · 0:17" data-ar="ريل منتج · ٠:١٧">Product reel · 0:17</span>
+              </span>
+            </button>
+          </div>
+
+          <div class="frame">
+            <video id="v2" preload="none" playsinline controls poster="media/poster-02.jpg"
+                   data-en-label="Zymta bamboo cutting boards" data-ar-label="زيمتا، ألواح تقطيع من البامبو">
+              <source src="media/reel-02.mp4" type="video/mp4">
+            </video>
+            <button class="play" type="button" data-for="v2" aria-label="Play the Zymta bamboo boards video">
+              <span class="play-dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+              <span class="cap">
+                <span class="t" data-en="Bamboo cutting boards" data-ar="ألواح تقطيع من البامبو">Bamboo cutting boards</span>
+                <span class="m" data-en="Product reel · 0:18" data-ar="ريل منتج · ٠:١٨">Product reel · 0:18</span>
+              </span>
+            </button>
+          </div>
+
+          <div class="frame">
+            <video id="v5" preload="none" playsinline controls poster="media/poster-05.jpg"
+                   data-en-label="Zymta doormat collection" data-ar-label="زيمتا، مجموعة الدعّاسات">
+              <source src="media/reel-05.mp4" type="video/mp4">
+            </video>
+            <button class="play" type="button" data-for="v5" aria-label="Play the Zymta doormats video">
+              <span class="play-dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+              <span class="cap">
+                <span class="t" data-en="Doormat collection" data-ar="مجموعة الدعّاسات">Doormat collection</span>
+                <span class="m" data-en="Product reel · 0:14" data-ar="ريل منتج · ٠:١٤">Product reel · 0:14</span>
+              </span>
+            </button>
+            <a class="srclink" href="https://www.instagram.com/reel/DRe8wkFAsd7/" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+              <span data-en="Instagram" data-ar="إنستغرام">Instagram</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="group">
+        <h3 class="grp">
+          <span class="who" data-en="Kazderni" data-ar="كزدرني">Kazderni</span>
+          <span class="what" data-en="Stays &amp; travel" data-ar="إقامات وسفر">Stays &amp; travel</span>
+        </h3>
+        <div class="reel">
+
+          <div class="frame">
+            <video id="v3" preload="none" playsinline controls poster="media/poster-03.jpg"
+                   data-en-label="Holiday chalet in Bqaatouta" data-ar-label="شاليه للأعياد في بقعاتوتا">
+              <source src="media/reel-03.mp4" type="video/mp4">
+            </video>
+            <button class="play" type="button" data-for="v3" aria-label="Play the Bqaatouta chalet video">
+              <span class="play-dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+              <span class="cap">
+                <span class="t" data-en="Holiday chalet in Bqaatouta" data-ar="شاليه للأعياد في بقعاتوتا">Holiday chalet in Bqaatouta</span>
+                <span class="m" data-en="Property tour · 0:36" data-ar="جولة في عقار · ٠:٣٦">Property tour · 0:36</span>
+              </span>
+            </button>
+            <a class="srclink" href="https://www.instagram.com/reel/Dd37OKkjW97/" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+              <span data-en="Instagram" data-ar="إنستغرام">Instagram</span>
+            </a>
+          </div>
+
+          <div class="frame">
+            <video id="v4" preload="none" playsinline controls poster="media/poster-04.jpg"
+                   data-en-label="Cedar chalets" data-ar-label="شاليهات Cedar">
+              <source src="media/reel-04.mp4" type="video/mp4">
+            </video>
+            <button class="play" type="button" data-for="v4" aria-label="Play the Cedar chalets video">
+              <span class="play-dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+              <span class="cap">
+                <span class="t" data-en="Cedar chalets" data-ar="شاليهات Cedar">Cedar chalets</span>
+                <span class="m" data-en="Property tour · 0:34" data-ar="جولة في عقار · ٠:٣٤">Property tour · 0:34</span>
+              </span>
+            </button>
+            <a class="srclink" href="https://www.instagram.com/reel/DQ9kmznAsnH/" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+              <span data-en="Instagram" data-ar="إنستغرام">Instagram</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="s-head">
+        <p class="eyebrow" data-en="Process" data-ar="طريقة العمل">Process</p>
+        <h2 class="display" data-en="How the work gets made" data-ar="كيف يُصنع العمل">How the work gets made</h2>
+        <p data-en="I handle every stage myself, so there is no handover between the content plan and the final cut." data-ar="أتولّى كل المراحل بنفسي، فلا يوجد انتقال بين خطة المحتوى والمونتاج النهائي.">I handle every stage myself, so there is no handover between the content plan and the final cut.</p>
+      </div>
+      <ol class="flow">
+        <li data-en="Content plan" data-ar="خطة المحتوى">Content plan</li>
+        <li data-en="Concept" data-ar="الفكرة">Concept</li>
+        <li data-en="Filming" data-ar="التصوير">Filming</li>
+        <li data-en="Editing" data-ar="المونتاج">Editing</li>
+        <li data-en="Published" data-ar="النشر">Published</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="s-head">
+        <p class="eyebrow" data-en="Experience" data-ar="الخبرة">Experience</p>
+        <h2 class="display" data-en="Brands and newsrooms" data-ar="علامات تجارية وغرف أخبار">Brands and newsrooms</h2>
+      </div>
+
+      <article class="job">
+        <p class="when" data-en="2026 — Present" data-ar="٢٠٢٦ — حتى الآن">2026 — Present</p>
+        <div>
+          <h3 data-en-html="Content Creator &amp; Account Manager, &lt;span class=&quot;org&quot;&gt;Zymta&lt;/span&gt;" data-ar-html="صانعة محتوى ومديرة حساب، &lt;span class=&quot;org&quot;&gt;زيمتا&lt;/span&gt;">Content Creator &amp; Account Manager, <span class="org">Zymta</span></h3>
+          <ul>
+            <li data-en="Build the social media content plan with the marketing team." data-ar="بناء خطة محتوى السوشال ميديا مع فريق التسويق.">Build the social media content plan with the marketing team.</li>
+            <li data-en="Develop the concepts for Reels, posts and promotional campaigns." data-ar="تطوير أفكار الريلز والمنشورات والحملات الترويجية.">Develop the concepts for Reels, posts and promotional campaigns.</li>
+            <li data-en="Film and edit product content around how the product is actually used." data-ar="تصوير ومونتاج محتوى المنتجات انطلاقًا من طريقة استخدامها الفعلية.">Film and edit product content around how the product is actually used.</li>
+            <li data-en="Run the account day to day and keep the feed consistent." data-ar="إدارة الحساب يوميًا والحفاظ على اتّساق المحتوى.">Run the account day to day and keep the feed consistent.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <p class="when" data-en="May 2025 — Mar 2026" data-ar="أيار ٢٠٢٥ — آذار ٢٠٢٦">May 2025 — Mar 2026</p>
+        <div>
+          <h3 data-en-html="Videographer, Editor &amp; Account Manager, &lt;span class=&quot;org&quot;&gt;Kazderni&lt;/span&gt;" data-ar-html="مصوّرة ومونتيرة ومديرة حساب، &lt;span class=&quot;org&quot;&gt;كزدرني&lt;/span&gt;">Videographer, Editor &amp; Account Manager, <span class="org">Kazderni</span></h3>
+          <ul>
+            <li data-en="Filmed and edited property tours for hotels, resorts and chalets listed on the app." data-ar="تصوير ومونتاج جولات في الفنادق والمنتجعات والشاليهات المدرجة على التطبيق.">Filmed and edited property tours for hotels, resorts and chalets listed on the app.</li>
+            <li data-en="Flew the drone for aerial footage of the properties." data-ar="تشغيل الدرون لالتقاط لقطات جوية للمواقع.">Flew the drone for aerial footage of the properties.</li>
+            <li data-en="Ran each production from planning to final cut, on deadline." data-ar="إدارة كل إنتاج من التخطيط حتى المونتاج النهائي ضمن المهلة المحدّدة.">Ran each production from planning to final cut, on deadline.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <p class="when" data-en="Aug — Dec 2024" data-ar="آب — كانون الأول ٢٠٢٤">Aug — Dec 2024</p>
+        <div>
+          <h3 data-en-html="Freelance Reporter, &lt;span class=&quot;org&quot;&gt;Salam Wa Kalam (UNDP)&lt;/span&gt;" data-ar-html="مراسلة مستقلّة، &lt;span class=&quot;org&quot;&gt;سلام وكلام (UNDP)&lt;/span&gt;">Freelance Reporter, <span class="org">Salam Wa Kalam (UNDP)</span></h3>
+          <ul>
+            <li data-en="Produced social reports on local communities, with interviews and fact-checking on the ground." data-ar="إعداد تقارير اجتماعية عن المجتمعات المحلّية، مع مقابلات وتحقّق ميداني من المعلومات.">Produced social reports on local communities, with interviews and fact-checking on the ground.</li>
+            <li data-en="Covered environmental issues, gender equality and cultural events for web and social." data-ar="تغطية القضايا البيئية والمساواة بين الجنسين والفعاليات الثقافية للويب والسوشال ميديا.">Covered environmental issues, gender equality and cultural events for web and social.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="cols">
+        <div>
+          <div class="s-head">
+            <p class="eyebrow" data-en="About" data-ar="نبذة">About</p>
+            <h2 class="display" data-en="I trained as a journalist" data-ar="تدرّبتُ كصحفية">I trained as a journalist</h2>
+          </div>
+          <div class="bio">
+            <p data-en="I studied Mass Communication and Journalism, and I still work the way a reporter does. Before I start filming a product I look for what is actually interesting about it, which is usually what someone does with it rather than the product sitting on a table." data-ar="درستُ الإعلام والصحافة، ولا أزال أعمل بعقلية المراسل. قبل أن أبدأ تصوير أي منتج أبحث عمّا هو مثير فعلًا فيه، وغالبًا ما يكون ما يفعله الناس به، لا المنتج وهو موضوع على الطاولة.">I studied Mass Communication and Journalism, and I still work the way a reporter does. Before I start filming a product I look for what is actually interesting about it, which is usually what someone does with it rather than the product sitting on a table.</p>
+            <p data-en="I write and caption in both Arabic and English. Most brands here need both in the same cut, so I build the overlays that way from the start instead of re-editing later." data-ar="أكتب وأُعدّ العناوين بالعربية والإنكليزية معًا. معظم العلامات هنا تحتاج اللغتين في النسخة نفسها، لذلك أبني العناوين بهذا الشكل من البداية بدل إعادة المونتاج لاحقًا.">I write and caption in both Arabic and English. Most brands here need both in the same cut, so I build the overlays that way from the start instead of re-editing later.</p>
+          </div>
+          <p class="eyebrow" style="margin-top:30px" data-en="What I do" data-ar="ما أقدّمه">What I do</p>
+          <ul class="tags">
+            <li data-en="Social media content plans" data-ar="خطط محتوى السوشال ميديا">Social media content plans</li>
+            <li data-en="Reels &amp; short-form video" data-ar="ريلز وفيديوهات قصيرة">Reels &amp; short-form video</li>
+            <li data-en="Product &amp; campaign content" data-ar="محتوى المنتجات والحملات">Product &amp; campaign content</li>
+            <li data-en="Video editing" data-ar="مونتاج الفيديو">Video editing</li>
+            <li data-en="Aerial cinematography" data-ar="تصوير جوي">Aerial cinematography</li>
+            <li data-en="Bilingual copy &amp; captions" data-ar="نصوص وعناوين ثنائية اللغة">Bilingual copy &amp; captions</li>
+            <li data-en="Account management" data-ar="إدارة الحسابات">Account management</li>
+            <li data-en="Interviews &amp; reporting" data-ar="مقابلات وتقارير">Interviews &amp; reporting</li>
+          </ul>
+        </div>
+
+        <aside>
+          <div class="block">
+            <h3 data-en="Education" data-ar="التعليم">Education</h3>
+            <p class="big" data-en="BA, Mass Communication &amp; Journalism" data-ar="بكالوريوس في الإعلام والصحافة">BA, Mass Communication &amp; Journalism</p>
+            <p data-en="Jinan University, Tripoli. 2022–2025, major average 87.07." data-ar="جامعة الجنان، طرابلس. ٢٠٢٢–٢٠٢٥، معدّل الاختصاص ٨٧٫٠٧.">Jinan University, Tripoli. 2022–2025, major average 87.07.</p>
+          </div>
+          <div class="block">
+            <h3 data-en="Training" data-ar="تدريبات">Training</h3>
+            <ul>
+              <li data-en="Youth to Combat Fake News, UNDP" data-ar="شباب لمواجهة الأخبار الزائفة، UNDP">Youth to Combat Fake News, UNDP</li>
+              <li data-en="Gender Sensitive Reporting, UN Women" data-ar="التغطية الحسّاسة للنوع الاجتماعي، هيئة الأمم المتحدة للمرأة">Gender Sensitive Reporting, UN Women</li>
+              <li data-en="Mobile Journalism Workshop, UNDP" data-ar="ورشة الصحافة عبر الهاتف، UNDP">Mobile Journalism Workshop, UNDP</li>
+              <li data-en="Radio internship at VDL: audio reporting, scriptwriting, broadcasting" data-ar="تدريب إذاعي في صوت لبنان: تقارير صوتية، كتابة نصوص، بثّ">Radio internship at VDL: audio reporting, scriptwriting, broadcasting</li>
+              <li data-en="SAWAB, fact-checking and verification" data-ar="صواب، التحقّق من المعلومات">SAWAB, fact-checking and verification</li>
+            </ul>
+          </div>
+          <div class="block">
+            <h3 data-en="Full CV" data-ar="السيرة الذاتية">Full CV</h3>
+            <p data-en="The complete CV is available as a PDF." data-ar="السيرة الذاتية الكاملة متوفّرة بصيغة PDF.">The complete CV is available as a PDF.</p>
+            <p style="margin-top:16px">
+              <a class="btn btn-ghost" href="naya-fajloun-cv.pdf" target="_blank" rel="noopener" data-en="Open CV (PDF)" data-ar="افتح السيرة الذاتية (PDF)">Open CV (PDF)</a>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="s-head">
+        <p class="eyebrow" data-en="Contact" data-ar="تواصل">Contact</p>
+        <h2 class="display" data-en="Tell me what you need filmed" data-ar="أخبرني بما تريد تصويره">Tell me what you need filmed</h2>
+        <p data-en="Send a brief and I will come back with a plan, a timeline and a price. WhatsApp is fastest." data-ar="أرسل لي بريفًا وسأعود إليك بخطة ومهلة زمنية وسعر. واتساب هو الأسرع.">Send a brief and I will come back with a plan, a timeline and a price. WhatsApp is fastest.</p>
+      </div>
+      <div class="crow">
+        <div style="min-width:0">
+          <span class="lbl" data-en="Email" data-ar="البريد الإلكتروني">Email</span>
+          <a class="val" href="mailto:naiafajloun@gmail.com">naiafajloun@gmail.com</a>
+        </div>
+        <button class="copy" type="button" data-copy="naiafajloun@gmail.com" data-en="Copy" data-ar="نسخ">Copy</button>
+      </div>
+      <div class="crow">
+        <div style="min-width:0">
+          <span class="lbl" data-en="Phone and WhatsApp" data-ar="هاتف وواتساب">Phone and WhatsApp</span>
+          <a class="val" href="tel:+96181220121">+961 81 220 121</a>
+        </div>
+        <button class="copy" type="button" data-copy="+96181220121" data-en="Copy" data-ar="نسخ">Copy</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <footer>
+      <span data-en="Naya Fajloun, Content Creator, Lebanon" data-ar="نايا فجلون، صانعة محتوى، لبنان">Naya Fajloun, Content Creator, Lebanon</span>
+      <span data-en="Available for brand and agency work" data-ar="متاحة للعمل مع العلامات التجارية والوكالات">Available for brand and agency work</span>
+    </footer>
+  </div>
+
+</main>
+
+<script>
+(function(){
+  "use strict";
+
+  var lang = "en";
+  var btn = document.getElementById("langBtn");
+
+  function applyLang(next){
+    lang = next;
+    var rtl = next === "ar";
+    var root = document.documentElement;
+    root.setAttribute("dir", rtl ? "rtl" : "ltr");
+    root.setAttribute("lang", next);
+
+    var nodes = document.querySelectorAll("[data-en]");
+    for (var i = 0; i < nodes.length; i++){
+      var v = nodes[i].getAttribute(rtl ? "data-ar" : "data-en");
+      if (v !== null) nodes[i].textContent = v;
+    }
+    var rich = document.querySelectorAll("[data-en-html]");
+    for (var j = 0; j < rich.length; j++){
+      var h = rich[j].getAttribute(rtl ? "data-ar-html" : "data-en-html");
+      if (h !== null) rich[j].innerHTML = h;
+    }
+    var vids = document.querySelectorAll("video[data-en-label]");
+    for (var k = 0; k < vids.length; k++){
+      var l = vids[k].getAttribute(rtl ? "data-ar-label" : "data-en-label");
+      if (l) vids[k].setAttribute("aria-label", l);
+    }
+    if (btn){
+      btn.textContent = rtl ? "EN" : "عربي";
+      btn.style.fontFamily = rtl ? "var(--body)" : "var(--arabic)";
+    }
+  }
+
+  if (btn){
+    btn.style.fontFamily = "var(--arabic)";
+    btn.addEventListener("click", function(){
+      applyLang(lang === "en" ? "ar" : "en");
+    });
+  }
+
+  var plays = document.querySelectorAll(".play");
+  for (var p = 0; p < plays.length; p++){
+    plays[p].addEventListener("click", function(){
+      var v = document.getElementById(this.getAttribute("data-for"));
+      if (!v) return;
+      var self = this;
+      self.hidden = true;
+      var started = v.play();
+      if (started && typeof started.catch === "function"){
+        started.catch(function(){ self.hidden = false; });
+      }
+      v.addEventListener("ended", function(){ self.hidden = false; });
+    });
+  }
+
+  var copies = document.querySelectorAll(".copy");
+  for (var c = 0; c < copies.length; c++){
+    copies[c].addEventListener("click", function(){
+      var el = this;
+      var text = el.getAttribute("data-copy");
+      var mark = function(){
+        el.setAttribute("data-done", "1");
+        el.textContent = lang === "ar" ? "تم النسخ" : "Copied";
+        setTimeout(function(){
+          el.removeAttribute("data-done");
+          el.textContent = el.getAttribute(lang === "ar" ? "data-ar" : "data-en") || "Copy";
+        }, 1800);
+      };
+      var fallback = function(){
+        var sib = el.parentNode.querySelector(".val");
+        if (!sib) return;
+        try {
+          var r = document.createRange();
+          r.selectNodeContents(sib);
+          var s = window.getSelection();
+          s.removeAllRanges();
+          s.addRange(r);
+        } catch (e) {}
+      };
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(text).then(mark, fallback);
+        } else { fallback(); }
+      } catch (e) { fallback(); }
+    });
+  }
+
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!reduce && "IntersectionObserver" in window){
+    var targets = document.querySelectorAll(".s-head, .frame, .flow, .job, .block, .tags, .bio, .crow");
+    for (var t = 0; t < targets.length; t++){
+      targets[t].classList.add("reveal", "reveal-init");
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){
+          en.target.classList.remove("reveal-init");
+          io.unobserve(en.target);
+        }
+      });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.06 });
+    for (var u = 0; u < targets.length; u++){ io.observe(targets[u]); }
+  }
+})();
+</script>
+
+</body>
+</html>
