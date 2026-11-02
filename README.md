@@ -80,3 +80,14 @@ contenu visible dans le HTML est la version anglaise ; l'arabe vient de
 **Changer les couleurs.** Tout part des variables du bloc `:root` en haut de la
 feuille de style. Le thème sombre reprend les mêmes noms dans les deux blocs
 qui suivent — modifier les trois pour rester cohérent.
+
+## Thème clair et sombre
+
+Au premier chargement la page suit le réglage du système du visiteur. Le bouton
+rond dans l'en-tête bascule manuellement, et le choix est retenu dans le
+navigateur : un petit script placé dans le `<head>` l'applique avant le premier
+rendu, donc aucun clignotement au rechargement.
+
+L'icône indique le thème vers lequel le clic mène — lune quand la page est
+claire, soleil quand elle est sombre. Elle est pilotée en CSS et non en
+JavaScript, elle est donc correcte même avant l'exécution du script.
